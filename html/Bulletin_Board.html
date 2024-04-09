@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/Bulletin Board.css">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body dir="rtl">
+  <div id="superior_design1">
+    <div id="aikonsw">
+      <div id="page_before"><img src="../picture/אחורה.png"></div>
+      <div class="title_page">כתיבת מודעה </div>
+      <div id="m_p_i">
+        <div id="profil_user"></div>
+        <img id="link_menu" src="../picture/Vector.png">
+      </div>
+    </div>
+    <h3 class="txt_bord">
+      יש משהו שבוער לך לפרסם?
+    </h3>
+  </div>
+
+  <div id="board" class="col-sm-6">
+    <div id="boardy">
+    </div>
+  </div>
+  <div id="add_nots" class="col-sm-6">
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="comment">נושא:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+      </form>
+    </div>
+    <div id="borader">
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="comment">תוכן:</label>
+            <textarea class="form-control" rows="5" id="comment2"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="comment">איך לחתום?</label>
+            <textarea class="form-control" rows="5" id="comment3"></textarea>
+            <h3 class="text_bold"> בחר סוג פתק</h3>
+            <div class="note">
+              <div class="nots" id="note1">
+                <img src="../picture/לוח מודעות/Lovepik_com-401170101-yellow-post-it-notes.png" width="150" alt="">
+              </div>
+              <div class="nots" id="note2">
+                <img src="../picture/לוח מודעות/Lovepik_com-610859551-Hand-painted red sticky notes free map.png"
+                  width="120" alt="">
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary" id="but"
+              style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              רוצה לתלות את המודעה שלי!
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+<script src="../js/Bulletin board.js"></script>
+<script src="../js/general.js"></script>

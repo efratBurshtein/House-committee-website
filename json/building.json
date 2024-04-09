@@ -1,0 +1,72 @@
+[
+        {
+            "building_code":"Imimy44",
+            "city": "מודיעין עילית",
+            "street":"מסילת יוסף",
+            "building_number":"44"                         
+        },
+        {
+            "building_code":"Iysy1",
+            "city": "ירושלים",
+            "street":"שרי ישראל",
+            "building_number":"1"          
+        },
+        {
+            "building_code":"Ibbra101",
+            "city": "בני ברק",
+            "street":"רבי עקיבא",
+            "building_number":"101"                         
+        },
+        {
+            "building_code":"Ibbe50",
+            "city": "בני ברק",
+            "street":"עזרה",
+            "building_number":"50"                         
+        },
+        {
+            "building_code":"Imimy20",
+            "city": "מודיעין עילית",
+            "street":"רבי יהודה הנשיא",
+            "building_number":"20"                         
+        },
+        {
+            "building_code":"Imimy22",
+            "city": "מודיעין עילית",
+            "street":"רבי יהודה הנשיא",
+            "building_number":"22"                         
+        },
+        {
+            "building_code":"Imimy25",
+            "city": "מודיעין עילית",
+            "street":"רבי יהודה הנשיא",
+            "building_number":"25"                         
+        },
+        {
+            "building_code":"Itay36",
+            "city": "תל אביב",
+            "street":"ירשלים",
+            "building_number":"36"          
+        },
+        {
+            "building_code":"Sl",
+            "city": "ציריך",
+            "street":"לאובאנשטראסה",
+            "building_number":"15"          
+        },
+        {
+            "building_code":"1",
+            "city": "א",
+            "street":"א",
+            "building_number":"1"          
+        },
+        {
+            "building_code":"Im2",
+            "city": "מודיעין עילית",
+            "street":"רב ושמואל",
+            "building_number":"7"          
+        
+        }
+
+
+]
+

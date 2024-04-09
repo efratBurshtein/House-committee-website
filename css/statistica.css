@@ -1,0 +1,67 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+.all_static {
+    text-align: center;
+    font-family: var(--font);
+}
+
+.static_votos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: row;
+    margin-right: 23%;
+    padding-top: 3%;
+}
+
+#curent_votos,
+#curent_servery {
+    width: 70%;
+    background-color: #0F1221;
+    color: bisque;
+    height: 30px;
+}
+
+.bead,
+.neged {
+    font-family: var(--font);
+    font-size: 60px;
+    color: #0F1221;
+}
+
+.answer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+
+}
+
+#answer1 {
+    width: 30px;
+    height: 30px;
+    background-color: #0F1221;
+}
+
+#answer2 {
+    width: 30px;
+    height: 30px;
+    background-color: #0F1221;
+}
+
+#answer3 {
+    width: 30px;
+    height: 30px;
+    background-color: #0F1221;
+}
+
+.max {
+    border: #C92549 solid 3px;
+}

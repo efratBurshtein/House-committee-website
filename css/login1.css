@@ -1,0 +1,223 @@
+:root {
+
+    --blue: #0F1221;
+    --pink: #C92549;
+    --white: rgb(255, 255, 255);
+    --font: 'Almoni ML v5 AAA';
+}
+#imageUpload{
+    
+}
+.p{
+    width: 120px;
+    height: 120px;
+    
+}
+body {
+    background-color: var(--blue);
+}
+
+.img_logo {
+    background-size: contain;
+    height: 70vh;
+    margin-top: 6%;
+    margin-left: 12%;
+    background-repeat: no-repeat;
+    background-image: url(../picture/לוגו\ בילד\ אין\ בת\ שבעב-06\ 1.png);
+}
+
+.text_start {
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 100;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+#all_ellips {
+    background-repeat: no-repeat;
+}
+
+.ellips {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 7%;
+    width: 63%;
+    margin-right: 16.2%;
+    flex-wrap: wrap;
+
+}
+.container_prof{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 19%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.aicon_ellips {
+    border: var(--pink) solid 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 200%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aicon_e {
+    margin-right: 30%;
+    margin-top: 20%;
+    width: 40px;
+    height: 40px;
+}
+
+.text_ellips {
+    margin-right: 5%;
+    padding-top: 42%;
+    color: var(--white);
+    font-size: larger;
+    font-family: var(--font);
+    z-index: 1;
+    text-align: center;
+
+}
+
+
+.newf1 {
+    background-color: var(--pink);
+    color: rgb(252, 250, 246);
+    font-family: var(--font);
+    font-size: large;
+    font-weight: 100;
+    margin-top: 6%;
+    width: 100%;
+}
+#btn_i_wont_start{
+    background-color: var(--pink);
+    color: rgb(252, 250, 246);
+    font-family: var(--font);
+    font-size: large;
+    font-weight: 100;
+    margin-top: 10%;
+    width: 60%; 
+    margin-right: 18%;
+}
+
+.newf1:hover {
+    color: var(--pink);
+    font-weight: 900;
+}
+
+.pwda {
+    color: var(--white);
+    font-size: large;
+    font-weight: 100;
+    font-family: var(--font);
+    
+}
+
+.login_connect {
+    width: 60%;
+    margin-top: 4%;
+}
+
+.newf {
+
+    background-color: var(--pink);
+    color: rgb(252, 250, 246);
+    font-family: var(--font);
+    font-size: large;
+    font-weight: 100;
+    width: 40%;
+    margin-right: 29%;
+    margin-top: 6%;
+}
+
+.newf:hover {
+    color: var(--pink);
+    font-weight: 900;
+}
+
+.checkbox {
+    color: var(--white);
+}
+
+.text_profil {
+    padding-top: 3%;
+    text-align: center;
+    font-size: xx-large;
+    color: var(--white);
+    font-family: var(--font);
+}
+
+.profil_container {
+    padding-top: 2.4%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 46%;
+    height: 350px;
+    margin-left: 28%;
+}
+
+.btn_profil {
+    margin-top: 2.7%;
+    margin-left: 31%;
+}
+
+.profil_image:hover {
+    opacity: 0.5;
+}
+.profil_image_p{
+    color: var(--white);
+    padding-left: 9%;
+    font-size: large;
+    width: 90%;
+   padding-left: 42%;
+padding-top: 1%;
+    text-align: center;
+    font-family: var(--font);
+}
+.text_profil_p{
+    padding-top: 1%;
+    text-align: center;
+    font-size: large;
+    color: var(--white);
+    padding-left: 46%;
+    font-family: var(--font);
+}
+.login_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text_card {
+    color: var(--white);
+    padding-left: 9%;
+    font-size: large;
+    width: 80%;
+    font-family: var(--font);
+    text-align: center;
+}
+.card_img {
+    padding-left: 7%;
+    
+}
+.container_all {
+    width: 90%;
+    padding-right: 18%;
+    padding-top: 7%;
+}
+#superior_design0{
+    background-color: var(--blou);
+    padding-bottom: 0%;
+}
+.choose{
+    border: 3px solid  white;
+}

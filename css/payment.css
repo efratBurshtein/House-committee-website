@@ -1,0 +1,30 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+body {
+    font-size: large;
+    color: var(--blou);
+}
+
+.div_pay1 {
+    width: 15pc;
+    height: 15pc;
+    color: white;
+    background-color: var(--blou);
+    margin: 5%;
+    padding: 2%;
+}
+
+.btn_pay_naw {
+    width: 100px;
+    height: 20px;
+    border: solid var(--blou) 0.5px;
+    background-color: var(--pink);
+}
+#link{
+    margin: 2pc;
+    border: #C92549 2px solid;
+}

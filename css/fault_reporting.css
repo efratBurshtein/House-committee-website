@@ -1,0 +1,52 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+.img_fault {
+    text-align: center;
+    padding-top: 3%;
+}
+
+label {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0F1221;
+    display: inline-block;
+}
+#comment2{
+    border: #0F1221 solid 0.5px;
+width: 70%;
+}
+
+
+#comment {
+    width: 35%;
+    height: 45px;
+    border: #0F1221 solid 0.5px;
+
+}
+
+#superior_design2 {
+    padding-right: 10%;
+    padding-top: 4%;
+}
+
+.content {
+    padding-right: 10%;
+}
+
+#btn_fault {
+    margin-top: 5%;
+    width: 280px;
+    height: 50px;
+    background-color: var(--pink);
+    color: white;
+    font-size: large;
+    font-family: var(--font);
+}

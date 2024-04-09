@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/system_responses.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <div id="superior_design3">
+        <div id="aikonsw">
+            <div id="page_before"><img src="../picture/Vector  (Stroke).png" id="page_before"></div>
+            <div>הצבעות </div>
+            <div> <img src="../picture/Vector.png" id="link_menu"></div>
+        </div>
+    </div>
+    <div id="con1">
+        <img src="../picture/תגובות מערכת/Group.png" alt="">
+        <h1>קלטנו אותך !</h1>
+        <h2>דעתך סופר חשובה לנו  ; )</h2>
+    </div>
+    <div ><button id="btn_rsp5">לחזרה לעמוד הבית</button></div>
+</body>
+
+</html>
+<script >
+    const dom={
+        btn_rsp5:document.getElementById('btn_rsp5'),
+        link_menu: document.getElementById('link_menu'),
+        page_before:document.getElementById('page_before')
+    }
+    dom.btn_rsp5.onclick=()=>{
+        location.href= "./menu.html"
+    }
+    dom.link_menu.onclick = () => {
+        location.href = "./menu.html";
+    }
+    dom.page_before.onclick = () => {
+        location.href = "./votes.html";
+    }
+</script>

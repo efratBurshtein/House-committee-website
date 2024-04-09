@@ -1,0 +1,54 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+body {
+    color: white;
+    font-family: var(--font);
+    font-size: medium;
+}
+
+.sms1 {
+    background-color: #2ae048;
+    opacity: 0.7;
+    margin: 3pc;
+    width: 30%;
+    border-radius: 20%;
+    padding: 1pc;
+    margin-right: 15%;
+}
+
+.smsnow{
+    background-color: #2ae048;
+    opacity: 0.7;
+    margin: 3pc;
+    margin-right: 50%;
+    width: 30%;
+    border-radius: 20%;
+    padding: 1pc;
+
+}
+#to_set{
+   background-color:#0F1221;
+   border-radius: 100%;
+   width: 40px;
+   height:40px;
+   padding: 0%;
+   margin: 0%;
+    
+}
+.to_set1{
+    width: 300px;
+    color: #0F1221;
+}
+#sms{
+    padding: 1pc;
+    width: 50%;
+}
+.div_sens_sms{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}

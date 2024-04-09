@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/system_responses.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <title>Document</title>
+</head>
+
+<body dir="rtl">
+    <div id="superior_design3">
+        <div id="aikonsw">
+            <div><img src="../picture/Vector  (Stroke).png" id="page_before"></div>
+            <div>תזכורת </div>
+            <div> <img src="../picture/Vector.png" id="link_menu"></div>
+        </div>
+    </div>
+
+    <div id="con1">
+        <img src="../picture/תגובות מערכת/Group 30.png" alt="">
+        <h1>הי, אחלה בוקר!</h1>
+        <h2>בטח את סופר עמוסה
+            <br>
+            כי עוד לא ביצעת את התשלום
+           <h3 id="month_add"></h3> של חודש 
+            <br>
+            תרצי לבצע את התשלום עכשיו?
+        </h2>
+        <div id="div_reminder1"></div>
+        <div>
+            <button id="btn_continue1">סבבה</button>
+            <button id="btn_continue2">תזכיר לי מאוחר יותר</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    const dom = {
+        link_menu: document.getElementById('link_menu'),
+        btn_continue1: document.getElementById('btn_continue1'),
+        btn_continue2: document.getElementById('btn_continue2'),
+        page_before: document.getElementById('page_before'),
+        div_reminder1: document.getElementById('div_reminder1')
+    }
+    dom.btn_continue1.onclick = () => {
+        location.href = "./menu.html"
+    }
+    dom.btn_continue2.onclick = () => {
+        drow_windous_date();
+    }
+    dom.link_menu.onclick = () => {
+        location.href = "./menu.html";
+    }
+    dom.page_before.onclick = () => {
+        location.href = "./payments.html";
+    }
+
+    const drow_windous_date = () => {
+        let a = new Date();
+        const b = a.toLocaleDateString();
+        const div1 = document.createElement('div');
+        const div2 = document.createElement('div');
+        const div3 = document.createElement('div');
+        const clock = document.createElement('input');
+        const clock2 = document.createElement('input');
+        clock.width = "2px";
+        clock2.width = "2px";
+        clock.placeholder = a.getHours();
+        clock2.placeholder = a.getMinutes();
+        clock.max = 24;
+        clock2.max = 59;
+        clock.min = a.getHours()
+        clock2.min = a.getMinutes()
+        clock.type = "number";
+        clock2.type = "number";
+        const btn = document.createElement('button');
+        btn.innerHTML = ('לאישור');
+        div3.appendChild(clock2);
+        div3.appendChild(clock);
+        div1.appendChild(div2);
+        div1.appendChild(div3);
+        div1.appendChild(btn);
+        div2.innerHTML = (b);
+        dom.div_reminder1.appendChild(div1);
+        div1.id = ('div_reminder');
+        btn.onclick = () => {
+            location.href = "./menu.html"
+        }
+    }
+
+</script>

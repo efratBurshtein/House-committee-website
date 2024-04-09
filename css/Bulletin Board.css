@@ -1,0 +1,159 @@
+:root {
+
+    --blue: #0F1221;
+    --pink: #C92549;
+    --white: rgb(255, 255, 255);
+    --font: 'Almoni ML v5 AAA';
+}
+
+
+
+.txt_bord {
+    font-family: var(--font);
+    color: var(--white);
+    font-size: x-large;
+    text-align: center;
+    padding-left: 1%;
+    padding-top: 3%;
+}
+
+.btn_wort_noat {
+    margin-left: 60%;
+    margin-top: 2%;
+    font-family: var(--font);
+    background-color: #C92549;
+    color: #fcfcff;
+}
+
+label {
+    font-family: Almoni ML v5 AAA;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0F1221;
+    display: inline-block;
+
+
+}
+
+#comment {
+    width: 35%;
+    height: 45px;
+    border: #0F1221 solid 0.5px;
+
+
+}
+
+#comment2 {
+    width: 35%;
+    height: 110px;
+    border: #0F1221 solid 0.5px;
+
+}
+
+#comment3 {
+    width: 35%;
+    height: 45px;
+    border: #0F1221 solid 0.5px;
+
+
+}
+.note_1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: EFT_Afarsek Light;
+    font-size: small;
+}
+
+.text_bold {
+    color: #0F1221;
+    font-family: Almoni ML v5 AAA;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    font-weight: bolder;
+
+}
+
+#boardy {
+    background-image: url(../picture/wood-board-background\ 1.png);
+    background-size: cover;
+    width: 90%;
+    height: 100vh;
+    font-family: EFT_Afarsek Light;
+
+}
+
+
+.col-sm-6 {
+    margin-top: 3%;
+    position: absolute;
+}
+
+#add_nots {
+    margin-right: 0%;
+    margin-top: 3%;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nots:hover {
+    opacity: 0.6;
+
+}
+.doc {
+    font-family: Almoni ML v5 AAA;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0F1221;
+    display: inline-block;
+
+
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#but {
+    background-color: var(--pink);
+    border-color: var(--pink);
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 100%;
+    width: 35%;
+
+}
+.note {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+
+}
+
+.ad1{
+    background-image: url('../picture/לוח מודעות/Lovepik_com-401170101-yellow-post-it-notes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 3pc;
+}
+
+.ad2{
+    background-image: url('../picture/לוח מודעות/Lovepik_com-610859551-Hand-painted red sticky notes free map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 3pc;
+}
+
+

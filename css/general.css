@@ -1,0 +1,73 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+body {
+    color: white;
+    font-family: var(--font);
+    font-size: larger;
+
+}
+
+.title_page {
+    color: white;
+    font-family: var(--font);
+    font-size: xx-large;
+    padding-right: 3%;
+}
+
+#superior_design3 {
+    background-color: var(--pink);
+    padding-bottom: 1%;
+}
+
+#superior_design00 {
+    background-color: var(--blou);
+    padding-bottom: 1%;
+}
+
+#superior_design0 {
+    background-color: var(--blou);
+    padding-bottom: 8%;
+}
+
+#superior_design1 {
+    background-color: var(--blou);
+    padding-bottom: 16%;
+}
+
+#aikonsw {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+#superior_design2 {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#m_p_i{
+    width: 8pc;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row; 
+}
+
+#link_menu{
+width: 30px;
+height: 30px;
+}
+
+.img-circle {
+    width: 4pc;
+    height: 4pc;
+    border-radius: 100%;
+}

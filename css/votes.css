@@ -1,0 +1,124 @@
+:root{
+    --pink:#C92549;
+    --blou:#0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+#all_votos{
+font-family: var(--font);
+font-size: x-large;
+color: #0F1221;
+padding-top: 3%;
+}
+.h2_votos{
+    font-family: var(--font);
+    font-size: xx-large;
+    color: #0F1221;
+    padding-top: 3%; 
+}
+body{
+    font-family: var(--font);
+    color: var(--blou);
+    font-size: x-large;
+    text-align: center;
+}
+#divi,#diviw{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    
+
+}
+#button_for,#button_against{
+    padding-top: 5%;
+    width: 90px;
+}
+#Voting_subject{
+    background-color:var(--blou) ;
+    color: white;
+    width: 10%;
+    margin: auto;
+}
+p{
+    color: var(--blou);
+}
+h1{
+    color: var(--blou);
+}
+.btn_add_votes{
+    background-color: var(--pink);
+    color: white;
+    font-family: var(--font);
+    font-size: large;
+    margin-top: 5%;
+}
+
+#btn_add{
+    background-color: var(--pink);
+    color: aliceblue;
+    margin-top: 9%;
+    width: 30%;
+    margin: auto;
+    font-family: var(--font);
+    font-size: medium;
+}
+.noni{
+    display: none;
+}
+.none{
+    display: none;
+}
+#comment{  
+    width: 90%;
+    height: 120px;
+    border: 0.6px solid var(--blou);
+}
+#all_votos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.subject_vote{
+    padding-top: 5%;
+    background-color: var(--blou);
+    color:white;
+    font-family: var(--font);
+    font-size: large;
+    height: 60px;
+    width: 50vw;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.btn_title{
+    background-color: var(--blou);
+    color: aliceblue;
+    font-family: var(--font);
+    font-size: large;
+    width: 70%;
+    height: 40px;
+    border-radius: 40% ;
+}
+#div_con{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+#div_opinion{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    text-align: center;
+}
+

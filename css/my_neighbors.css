@@ -1,0 +1,48 @@
+:root {
+
+    --blue: #0F1221;
+    --pink: #C92549;
+    --white: rgb(255, 255, 255);
+    --font: 'Almoni ML v5 AAA';
+}
+
+.information_build{
+    color: var(--white);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 20%;
+    
+}
+.img_prifil{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.name_n{
+    color: var(--blue);
+    font-family: var(--font);
+    font-size: xx-large;
+width: 90%;
+}
+.div_user{
+    display: flex;
+     width: 100%;
+    justify-content: space-between;
+    height: 16vh; 
+    flex-direction: row;
+}
+.con_neighbors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 3%;
+    /* padding-right: 45%; */
+    
+}
+#myInput{
+    margin-top: 2%;
+    width: 40%;
+}

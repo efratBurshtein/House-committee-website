@@ -1,0 +1,47 @@
+:root {
+    --pink: #C92549;
+    --blou: #0F1221;
+    --font: Almoni ML v5 AAA Light;
+}
+
+body {
+    background-color: var(--pink);
+    font-family: var(--font);
+    color: white;
+    text-align: center;
+}
+
+#div_reminder {
+    width: 15pc;
+    height: 12pc;
+    background-color: var(--blou);
+    color: white;
+    font-family: var(--font);
+    margin: auto;
+}
+
+#con1 {
+    margin-top: 7%;
+    font-size: x-large;
+}
+
+button {
+    color: var(--pink);
+    font-family: var(--font);
+    font-weight: bolder;
+    margin-top: 3%;
+    padding: 1pc;
+    padding-left: 2pc;
+    padding-right: 2pc;
+    font-weight: bold;
+    border: white solid 2px;
+    border-radius: 15%;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0.5, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#img_big {
+    width: 8pc;
+}
