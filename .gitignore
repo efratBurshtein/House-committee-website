@@ -1,26 +1,49 @@
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.mp4
-*.mov
-*.avi
-*.wmv
-*.flv
-node_modules/
-.tmp/
-*.tmp
+# Ignore build files
 build/
-.env*
-*.log
-config.json
-.idea/
-tests/
-coverage/
+dist/
+out/
+
+# Ignore documentation files
 docs/
-deploy/
-picture/
+
+# Ignore image files
+images/
+
+# Ignore video files
+videos/
+
+# Ignore version files
+*.log
+*.psd
+*.xcf
+
+# Ignore key files
+*.key
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore version files
+*.version
+
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore thumbs.db files
+thumbs.db
+
+# Ignore .git files
+.git/
+
+# Ignore .gitignore files
+.gitignore
+
+#Ignore folders
 add/
 bootstrap-5.3.0-alpha3-dist/
-בשביל פרויקט מושלם נא להוריד פונט זה למחשב!!/
+picture/
